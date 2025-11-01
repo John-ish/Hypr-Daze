@@ -18,7 +18,7 @@ display_welcome() {
     # Check if 'toilet' is installed, otherwise use 'figlet'
     if command -v toilet &> /dev/null; then
         toilet -f mono12 -F metal "welcome to"
-        toilet -f future -F metal "Hypr-Daze"
+        toilet -f future -F metal "HyprDaze"
     elif command -v figlet &> /dev/null; then
         figlet "welcome to Hypr-Daze"
     else
